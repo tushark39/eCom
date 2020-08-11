@@ -2,11 +2,7 @@ import React from 'react';
 import './App.css';
 import Base from './screens/core/Base';
 import { getProduct } from './screens/core/Helper/getallproducts';
-
-
-
 class App extends React.Component {
-
   getallproducts = () => {
     let products = []
     getProduct()
